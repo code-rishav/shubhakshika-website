@@ -1,0 +1,1 @@
+All project related js files should be stored here 

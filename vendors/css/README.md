@@ -1,0 +1,1 @@
+All third party css files used in the project should be stored here 

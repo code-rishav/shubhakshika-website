@@ -1,0 +1,359 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 0px;
+    padding: 0%;
+}
+
+.top-image {
+    width: 70px;
+    background-color: white;
+    height: 70px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.navbuttons {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.about_button {
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: medium;
+    position: absolute;
+    vertical-align: middle;
+    padding-top: 5px;
+    right: 36em;
+    text-decoration: none;
+}
+
+.ourprojects {
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    position: absolute;
+    vertical-align: middle;
+    right: 27em;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.sponsor {
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    position: absolute;
+    vertical-align: middle;
+    right: 20em;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.contacts {
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    vertical-align: middle;
+    right: 210px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.volunteer {
+    background-color: #3DB2FF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    font-size: larger;
+    position: absolute;
+    top: 15px;
+    right: 70px;
+    padding-top: 5px;
+    text-decoration: none;
+    height: 30px;
+    width: 120px;
+    font-weight: 550;
+    color: white;
+}
+
+.volunteer:hover {
+    background-color: #8BDB81
+}
+
+.container {
+    position: relative;
+}
+
+.content {
+    position: relative;
+}
+
+.overlay {
+    background: rgba(122, 121, 121, 0.44);
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+h1 {
+    position: absolute;
+    bottom: 330px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 00.05em;
+    color: white;
+    font-size: 3em;
+}
+
+h2 {
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 0.03em;
+}
+
+.button-box {
+    display: flex;
+    gap: 0.5em;
+}
+
+.donate {
+    background-color: #3DB2FF;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    bottom: 200px;
+    left: 50px;
+    font-size: larger;
+    position: absolute;
+    border-radius: 5px;
+    padding-left: 20px;
+    height: 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.volun {
+    background-color: transparent;
+    text-align: center;
+    border: solid white 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    bottom: 200px;
+    left: 220px;
+    font-size: larger;
+    position: absolute;
+    border-radius: 5px;
+    padding: 0.4em 1.05em;
+    height: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.circles {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.circle-1 {
+    width: 15px;
+    border-radius: 50%;
+    background: #FFFA;
+    cursor: pointer;
+    left: 200px;
+}
+
+.circle-current {
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: blue;
+    left: 175px;
+    cursor: pointer;
+}
+
+.circle-3 {
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #FFFA;
+    cursor: pointer;
+}
+
+.boxes {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.box1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #DFF6FF;
+}
+
+.img1 {
+    position: absolute;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.whoarewe {
+    color: black;
+    position: absolute;
+    left: 568px;
+    top: 30px;
+}
+
+.para1 {
+    position: relative;
+    left: 574px;
+    top: 120px;
+    width: 42%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.read1 {
+    position: absolute;
+    right: 6em;
+    font-size: larger;
+    top: 300px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3DB2FF;
+    background-color: transparent;
+    border-style: solid;
+    padding: 10px 20px;
+    border-color: #3DB2FF;
+    border-radius: 5px;
+}
+
+.fa fa-caret-right {
+    color: #3DB2FF;
+    size: 25px;
+}
+
+.box2 {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+.img2 {
+    position: absolute;
+    right: 0%;
+    top: 25em;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.origin {
+    position: absolute;
+    color: black;
+    left: 55px;
+    top: 410px;
+}
+
+.para2 {
+    position: relative;
+    left: 60px;
+    top: 500px;
+    width: 40%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.ourteam {
+    position: absolute;
+    left: 41em;
+    font-size: larger;
+    top: 670px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: transparent;
+    border-style: solid;
+    padding: 10px 20px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.box3 {
+    position: absolute;
+    display: flex;
+    height: 400px;
+    top: 50em;
+    width: 100%;
+    background-color: #DFF6FF;
+}
+
+.img3 {
+    position: absolute;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.vision {
+    color: black;
+    position: absolute;
+    left: 568px;
+    top: 55px;
+}
+
+.para3 {
+    position: relative;
+    left: 574px;
+    top: 150px;
+    width: 40%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.mission {
+    position: absolute;
+    right: 6em;
+    font-size: larger;
+    top: 300px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3DB2FF;
+    background-color: transparent;
+    border-style: solid;
+    padding: 10px 20px;
+    border-color: #3DB2FF;
+    border-radius: 5px;
+}

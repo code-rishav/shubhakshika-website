@@ -1,0 +1,38 @@
+.donate-us-header{
+    padding-top: 8%;
+    text-align: center;
+}
+
+.donate-us-header h1, #donate-name{
+    font-size: 60px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom:10px;
+
+    background: -webkit-linear-gradient(45deg,rgb(9, 38, 43), rgb(48, 176, 255) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.donate-us-details{
+    text-align: center;
+}
+
+#donate-name{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#donate-id{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:40px;
+}
+#donate-id h5{
+    font-size: 15px;
+    color: rgb(9, 42, 48);
+
+}
+

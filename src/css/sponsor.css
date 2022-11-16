@@ -1,0 +1,81 @@
+.sponsor-heading {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sponsor-heading h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+.sponsor-logo-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor-logo-row1 {
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+.sponsor-logo-row2 {
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+    padding: 5% 8%;
+}
+
+.sponsor-logo-div img {
+    cursor: pointer;
+    max-width: 100%;
+    width: 20vw;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover,
+.img6:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.images-row {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.images-column {
+    flex: 15%;
+    max-width: 22%;
+    padding: 10px;
+}
+
+.images-column img {
+    margin-top: 8px;
+    width: 100%;
+}
+
+#border {
+    border-top-left-radius: 10%;
+}
+
+#border1 {
+    border-bottom-left-radius: 10%;
+}
+
+#border2 {
+    border-top-right-radius: 10%;
+}
+
+#border3 {
+    border-bottom-right-radius: 10%;
+}
